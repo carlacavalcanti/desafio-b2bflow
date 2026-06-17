@@ -1,6 +1,6 @@
 # Desafio B2BFlow
 
-Projeto desenvolvido em Python para leitura de contatos armazenados no Supabase e envio de mensagens personalizadas via WhatsApp utilizando a Z-API.
+Projeto desenvolvido em Python para leitura de contatos armazenados no Supabase e envio automático de mensagens via WhatsApp utilizando a API da Z-API.
 
 ## Tecnologias
 
@@ -11,13 +11,13 @@ Projeto desenvolvido em Python para leitura de contatos armazenados no Supabase 
 
 ## Estrutura da tabela
 
-Tabela: contatos
+Tabela: `contatos`
 
-Campos:
-
-- id
-- nome
-- telefone
+| Campo    | Tipo    |
+| -------- | ------- |
+| id       | integer |
+| nome     | text    |
+| telefone | text    |
 
 ## Variáveis de ambiente
 
