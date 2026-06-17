@@ -1,0 +1,41 @@
+# Desafio B2BFlow
+
+Projeto desenvolvido em Python utilizando Supabase e Z-API.
+
+## Tecnologias
+
+- Python
+- Supabase
+- Z-API
+- python-dotenv
+
+## Estrutura da tabela
+
+Tabela: contatos
+
+Campos:
+
+- id
+- nome
+- telefone
+
+## Variáveis de ambiente
+
+```env
+SUPABASE_URL=
+SUPABASE_KEY=
+ZAPI_INSTANCE_ID=
+ZAPI_TOKEN=
+```
+
+## Instalação
+
+```bash
+pip install -r requirements.txt
+```
+
+## Execução
+
+```bash
+python main.py
+```
